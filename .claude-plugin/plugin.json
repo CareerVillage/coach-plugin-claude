@@ -1,0 +1,21 @@
+{
+  "name": "career-coaching",
+  "displayName": "Career Coaching",
+  "version": "1.0.0",
+  "description": "CareerVillage career coaching for Claude — bundles the coach-mcp server (structured coaching playbooks + scoped career data sources) with the career-coaching skill for grounded, source-cited career guidance.",
+  "author": {
+    "name": "CareerVillage",
+    "email": "engineering@careervillage.org",
+    "url": "https://careervillage.org"
+  },
+  "homepage": "https://aicareercoach.org",
+  "repository": "https://github.com/CareerVillage/coach-plugin-claude",
+  "license": "Apache-2.0",
+  "keywords": ["career", "coaching", "job-search", "resume", "interview", "labor-market", "careervillage", "coach-mcp"],
+  "mcpServers": {
+    "coach-mcp": {
+      "type": "http",
+      "url": "https://mcp.aicareercoach.org/mcp"
+    }
+  }
+}
